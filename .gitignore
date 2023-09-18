@@ -1,8 +1,8 @@
 HELP.md
 target/
 .mvn/
-**/src/main/**/target/
-**/src/test/**/target/
+#**/src/main/**/target/
+#**/src/test/**/target/
 mvnw
 mvnw.cmd
 .cmd
@@ -41,7 +41,6 @@ build/
 .vscode/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
